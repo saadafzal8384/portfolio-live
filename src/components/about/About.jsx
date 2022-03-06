@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { BsCodeSlash } from "react-icons/bs";
 import ME from "../../assets/saad.png";
 
 const About = () => {
@@ -20,17 +20,17 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Years</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+</small>
+              <BsCodeSlash className="about__icon" />
+              <h5>Projects Completed</h5>
+              <small>20+</small>
             </article>
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Language & Frameworks</h5>
+              <small>10+</small>
             </article>
           </div>
 
