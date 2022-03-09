@@ -1,6 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import PortfolioIMG from "../../assets/portfolio.jpg";
+import WoodpeckerIMG from "../../assets/woodpecker.jpg";
+import gutjharIMG from "../../assets/gutjahr.jpg";
+import indicieduIMG from "../../assets/indici-edu-logo.jpg";
+import indiciconnectIMG from "../../assets/Indici-connect.jpg";
+import igniteIMG from "../../assets/Ignite-Startup-Portal.jpg";
+import ehsaasIMG from "../../assets/ehsaaslogo.jpg";
 
 const Portfolio = () => {
   return (
@@ -10,109 +15,91 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={WoodpeckerIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3>Floor and Terrace Planner</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://woodpeckerag.ch/woodpecker/"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={gutjharIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3>Balcony & drainage Planner</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://kosy.gutjahr.com/step/view/1"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={indicieduIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3>Virtual Eduction Startup</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://indiciedu.com.pk/"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={indiciconnectIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3>Virtual Meetings System</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://indiciconnect.com/"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={igniteIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3> Government Startup Portal</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://ignite.org.pk/nic/"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
         <article className=" portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PortfolioIMG} alt="Project Thumnail" />
+            <img src={ehsaasIMG} alt="Project Thumnail" />
           </div>
-          <h3> This is a portfolio item title</h3>
+          <h3>People Welfare Portal</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://ehsaas.hec.gov.pk/#/login"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              To the Project
             </a>
           </div>
         </article>
