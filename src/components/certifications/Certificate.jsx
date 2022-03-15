@@ -44,7 +44,7 @@ const Certificate = () => {
           <div className="portfolio__item-image">
             <img src={reactIMG} alt="Certificate Thumnail" />
           </div>
-          <h3>Front End Development Libraries</h3>
+          <h3>Front End Development and Libraries</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://www.freecodecamp.org/certification/saadafzal/front-end-development-libraries"
