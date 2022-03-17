@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1f5b3f2.css",
-    "main.js": "/static/js/main.2d5e0128.js",
+    "main.js": "/static/js/main.dbbdaaa5.js",
     "static/media/saad.png": "/static/media/saad.7cbe0f88441e2b0ae338.png",
     "static/media/cv.pdf": "/static/media/cv.4735cddf54d90bbb21da.pdf",
     "static/media/Indici-connect.jpg": "/static/media/Indici-connect.ba43d2c1f88eedf31761.jpg",
@@ -10,10 +10,10 @@
     "static/media/indici-edu-logo.jpg": "/static/media/indici-edu-logo.2dd2633cb461ccafd7c7.jpg",
     "index.html": "/index.html",
     "main.c1f5b3f2.css.map": "/static/css/main.c1f5b3f2.css.map",
-    "main.2d5e0128.js.map": "/static/js/main.2d5e0128.js.map"
+    "main.dbbdaaa5.js.map": "/static/js/main.dbbdaaa5.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f5b3f2.css",
-    "static/js/main.2d5e0128.js"
+    "static/js/main.dbbdaaa5.js"
   ]
 }
