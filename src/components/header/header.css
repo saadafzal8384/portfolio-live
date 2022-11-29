@@ -9,7 +9,9 @@ header {
   height: 100%;
   position: relative;
 }
-
+.image-header {
+  margin-top: -5rem;
+}
 /* ============== CTA ============== */
 .cta {
   margin-top: 2.5rem;

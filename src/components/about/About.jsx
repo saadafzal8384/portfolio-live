@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { BsCodeSlash } from "react-icons/bs";
-import ME from "../../assets/saad.png";
+import ME from "../../assets/saad.jpg";
 
 const About = () => {
   return (

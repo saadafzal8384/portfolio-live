@@ -1,8 +1,8 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/saad.png'
-import HeaderSocials from './HeaderSocials'
+import React from "react";
+import "./header.css";
+import CTA from "./CTA";
+import ME from "../../assets/saad-no-bg.png";
+import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
@@ -12,15 +12,17 @@ const Header = () => {
         <h1>Saad Afzal</h1>
         <h5 className="text-light">Software Developer</h5>
         <CTA />
-        <HeaderSocials/>
+        <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt="Saad Afzal Image" />
+          <img className="img-header" src={ME} alt="Saad Afzal Image" />
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
